@@ -41,6 +41,12 @@ th, td{padding:0.5ex;}
 </head>
 <body>
 
+<!-- Auto refresh script for every 5 seconds. -->
+<script>
+ function autoRefresh() { window.location =window.location.href; }
+ setInterval('autoRefresh()', 5000); 
+</script>
+
 <table style="margin:auto; background:#50A0A0; text-align:center;">
 <tr><td>
 
